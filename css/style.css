@@ -303,8 +303,8 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .fh5co-cover {
   height: 900px;
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
   width: 100%;
 }
@@ -315,7 +315,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.1);
 }
 .fh5co-cover > .fh5co-container {
   position: relative;
@@ -1857,8 +1857,5 @@ form label {
   max-width: 100%;
   height: auto;
 }
-
-
-
 
 /*# sourceMappingURL=style.css.map */
