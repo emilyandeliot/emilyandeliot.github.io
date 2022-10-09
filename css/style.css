@@ -1081,9 +1081,9 @@ form label {
 }
 .couple-half .groom, .couple-half .bride {
   float: left;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
+  /*-webkit-border-radius: 50%;*/
+  /*-moz-border-radius: 50%;*/
+  /*-ms-border-radius: 50%;*/
   border-radius: 50%;
   width: 150px;
   height: 150px;
@@ -1091,9 +1091,9 @@ form label {
 .couple-half .groom img, .couple-half .bride img {
   width: 150px;
   height: 150px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
+  /*-webkit-border-radius: 50%;*/
+  /*-moz-border-radius: 50%;*/
+  /*-ms-border-radius: 50%;*/
   border-radius: 50%;
 }
 @media screen and (max-width: 480px) {
