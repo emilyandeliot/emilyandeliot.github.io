@@ -57,6 +57,11 @@
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
 
+	<!-- swirl animation -->
+	<link rel="stylesheet" type="text/css" href="css/base.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo2.css">
+	<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
@@ -67,6 +72,7 @@
 	</head>
 	<body>
 		
+
 	<div class="fh5co-loader"></div>
 	
 	<div id="page">
@@ -127,15 +133,19 @@
 	</header>
 
 	<div id="fh5co-couple">
-		<div class="container">
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<h2>Hello!</h2>
-					<h3>August 12th 2023, Stokholm, Sweden</h3>
-					<p>We're inviting you to celebrate our wedding</p>
-					<img src="images/illustration.png" class="illustration">
+				<div id="swirl" class="content content--canvas">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+						<h2>Hello!</h2>
+						<h3>August 12th 2023, Stokholm, Sweden</h3>
+						<p>We're inviting you to celebrate our wedding</p>
+					</div>
 				</div>
-			</div>
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3 text-center fh5co-heading animate-box">
+				<img src="images/illustration_cropped.png" class="illustration">
+				</div>				
+			</div>				
 			<!-- <div class="couple-wrap animate-box"> -->
 			<div class="couple-wrap">
 				<div class="couple-half">
@@ -661,7 +671,11 @@
         day: d.getDate(),
         enableUtc: false
     });
-</script>
+	</script>
+
+	<script src="js/noise.min.js"></script>
+	<script src="js/util.js"></script>
+	<script src="js/swirl.js"></script>
 
 	</body>
 </html>
